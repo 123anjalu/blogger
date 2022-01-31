@@ -31,6 +31,9 @@ ul {
   display: flex;
   margin: 0;
 }
+ol{
+  padding: 0;
+}
 
 button.btn {
   border: none;
@@ -61,13 +64,21 @@ p {
   flex-wrap: wrap;
 }
 
+.newsletter > h2
+{
+  padding: 1rem 2rem;
+}
+.post-titlee {
+  padding: 1rem 2rem; 
+}
+
 /*-------global clasees-------------*/
 /*-------navbar-------------*/
 .nav {
   background: white;
   padding: 0 2rem;
-  height: 0rem;
-  min-height: 10vh;
+  /* height: 0rem;
+  min-height: 10vh; */
   overflow: hidden;
   transition: height 1s ease-in-out;
 }
@@ -160,15 +171,17 @@ p {
 }
 
 /*-------------------main section--------*/
-.site-title {
-  background: url('../assets/background-image.png');
+main .site-title {
+  background: url('../assets/Background-image.png');
   background-size: cover;
   height: 110vh;
   text-align: center;
+  object-fit: contain;
+  background-repeat: no-repeat;
 }
 
 .site-background {
-  padding-top: 5rem;
+  padding-top: 10rem;
   text-align: center;
   color: #ffffff;
 }
@@ -213,6 +226,7 @@ p {
 
 .blog-title {
   padding: 1.5rem 0;
+  background-color: white;
 }
 
 .btn-blog {
@@ -236,9 +250,8 @@ p {
   width: 100%;
 }
 
-.owl-nav-prev,
-.owl-nav-next {
-  color: #3f495;
+.owl-nav-prev, .owl-nav-next {
+  color: #3f4955;
   background: transparent;
   font-size: 2rem;
 }
@@ -352,11 +365,11 @@ p {
 }
 
 .post-infoo {
-  padding: 25px 50px  !important
-   bottom: 0rem !important
-   left: 1.5rem !important
-    border-radius: 0rem !important
-     background: #ffffff !important
+  padding: 25px 50px  !important;
+   bottom: 0rem !important;
+   left: 1.5rem !important;
+    border-radius: 0rem !important;
+     background: #ffffff !important;
 }
 
 .post-titlee a {
@@ -392,6 +405,7 @@ button.form-btn {
 
 .popular-tags {
   padding: 5rem 0;
+  padding: 1rem 2rem;  
 
 }
 
@@ -405,7 +419,8 @@ button.form-btn {
 }
 
 .tags {
-  row-margin: 20px;
+display: flex;
+flex-wrap: wrap;
 }
 
 /*---------------side bar----------*/
@@ -488,4 +503,17 @@ button.form-btn {
   cursor: pointer;
 }
 
+
+.popular-post > h2 {
+  padding: 1rem 2rem;
+}
+.Category-list{
+  padding: 1rem 2rem; 
+}
+.Category > h2 {
+  padding: 1rem 2rem;  
+}
+hr{
+  margin: 0 2rem ;  
+}
 /*-------------------footer section--------*/
