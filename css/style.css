@@ -31,9 +31,6 @@ ul {
   display: flex;
   margin: 0;
 }
-ol{
-  padding: 0;
-}
 
 button.btn {
   border: none;
@@ -62,14 +59,6 @@ p {
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
-}
-
-.newsletter > h2
-{
-  padding: 1rem 2rem;
-}
-.post-titlee {
-  padding: 1rem 2rem; 
 }
 
 /*-------global clasees-------------*/
@@ -171,17 +160,15 @@ p {
 }
 
 /*-------------------main section--------*/
-main .site-title {
-  background: url('../assets/Background-image.png');
+.site-title {
+  background: url('../assets/background-image.png');
   background-size: cover;
   height: 110vh;
   text-align: center;
-  object-fit: contain;
-  background-repeat: no-repeat;
 }
 
 .site-background {
-  padding-top: 10rem;
+  padding-top: 5rem;
   text-align: center;
   color: #ffffff;
 }
@@ -226,7 +213,6 @@ main .site-title {
 
 .blog-title {
   padding: 1.5rem 0;
-  background-color: white;
 }
 
 .btn-blog {
@@ -250,8 +236,9 @@ main .site-title {
   width: 100%;
 }
 
-.owl-nav-prev, .owl-nav-next {
-  color: #3f4955;
+.owl-nav-prev,
+.owl-nav-next {
+  color: #3f495;
   background: transparent;
   font-size: 2rem;
 }
@@ -365,11 +352,11 @@ main .site-title {
 }
 
 .post-infoo {
-  padding: 25px 50px  !important;
-   bottom: 0rem !important;
-   left: 1.5rem !important;
-    border-radius: 0rem !important;
-     background: #ffffff !important;
+  padding: 25px 50px  !important
+   bottom: 0rem !important
+   left: 1.5rem !important
+    border-radius: 0rem !important
+     background: #ffffff !important
 }
 
 .post-titlee a {
@@ -405,7 +392,6 @@ button.form-btn {
 
 .popular-tags {
   padding: 5rem 0;
-  padding: 1rem 2rem;  
 
 }
 
@@ -419,8 +405,7 @@ button.form-btn {
 }
 
 .tags {
-display: flex;
-flex-wrap: wrap;
+  row-margin: 20px;
 }
 
 /*---------------side bar----------*/
@@ -503,17 +488,4 @@ flex-wrap: wrap;
   cursor: pointer;
 }
 
-
-.popular-post > h2 {
-  padding: 1rem 2rem;
-}
-.Category-list{
-  padding: 1rem 2rem; 
-}
-.Category > h2 {
-  padding: 1rem 2rem;  
-}
-hr{
-  margin: 0 2rem ;  
-}
 /*-------------------footer section--------*/
